@@ -1,0 +1,30 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         DFlip_Flop.lvs.report.ext
+LAYOUT NAME:              DFlip_Flop.calibre.db ('DFlip_Flop')
+CREATION TIME:            Mon Mar 18 23:43:48 2024
+CURRENT DIRECTORY:        /home/vkartik/ECE5545
+USER NAME:                vkartik
+CALIBRE VERSION:          v2017.3_38.30    Mon Oct 2 17:38:05 PDT 2017
+
+
+
+Extraction Errors and Warnings for cell "DFlip_Flop"
+----------------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  1
+          (1)  name  "GND"  at location  (0.27,-0.14)  on layer  11 "metal1"
+          (2)  name  "VDD"  at location  (0.43,1.01)  on layer  11 "metal1"
+          The name "VDD" was assigned to the net.
+
+

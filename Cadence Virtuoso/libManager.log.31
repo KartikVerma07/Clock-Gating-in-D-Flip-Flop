@@ -1,0 +1,102 @@
+\o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
+\o Sub version:		sub-version  s019 
+\o Arguments:		-mpssession virtuoso45262 -mpshost cluster08 
+\o Working Directory:	cluster08:/home/vkartik/ECE5545
+\o 64-bit offsets
+\o Qt version: 		4.7.2
+\o Log file is "/home/vkartik/ECE5545/libManager.log.31".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(-1 27 1536 631))
+\o changeWorkingDir("/home/vkartik/ECE5545") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
+\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
+\a cdsLibManager->fileLoadDefaultsButton->value = t
+\a nrSetWindowVisibility(LoadDefaultEnvironment "show")
+\a LoadDefaultEnvironment->QLineEdit2->value = "/home/vkartik/ECE5545/"
+\a nrSetCurrentWindow(LoadDefaultEnvironment)
+\a nrResizeWindow(LoadDefaultEnvironment list(547 186 420 236))
+\a LoadDefaultEnvironment->OK->value = t
+\a LoadDefaultEnvironment->OK->value = t
+\a LoadDefaultEnvironment->OK->value = t
+\a LoadDefaultEnvironment->OK->value = t
+\a LoadDefaultEnvironment->OK->value = t
+\a LoadDefaultEnvironment->OK->value = t
+\a LoadDefaultEnvironment->OK->value = t
+\a LoadDefaultEnvironment->Cancel->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup0" 273 126 2 "")
+\a cdsLibManager->libLineEdit->value = ""
+\a lmgrLogShowPopup("mainListPopup0" 209 162 2 "")
+\a cdsLibManager->editChangeRefsButton->value = t
+\a nrSetWindowVisibility(changeRefDialog "show")
+\a nrSetCurrentWindow(changeRefDialog)
+\a nrResizeWindow(changeRefDialog list(412 70 690 528))
+\a changeRefDialog->fromLibFilterComboBox->value = "*"
+\a changeRefDialog->fromViewComboBox->value = "<All>"
+\a changeRefDialog->addButton->value = t
+\o ERROR (CLM-360): Select at least one "In Library" to change its data references.
+\a nrSetWindowVisibility(errorDialog "show")
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(550 281 414 120))
+\a errorDialog->errorHelpButton->value = t
+\o Invoking help (missingInLibrary).
+\w Warning: Help topic "missingInLibrary" wasn't shown, using DEFAULT tag
+\a nrSetCurrentWindow(changeRefDialog)
+\a nrSetCurrentWindow(changeRefDialog)
+\a changeRefDialog->showSelectionOnlyCheckBox->value = t
+\a changeRefDialog->showSelectionOnlyCheckBox->value = nil
+\a changeRefDialog->toLibListWidget->value = "<As Is>"
+\a changeRefDialog->fromLibsListWidget->value = '("<All>" )
+\a changeRefDialog->Cancel->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ECE5545MiniProject1"
+\a cdsLibManager->libLineEdit->value = "ECE5545MiniProject1"
+\a cdsLibManager->cellListBox->value = "Clock_Gated_D-Flip_Flop"
+\a cdsLibManager->cellListBox->value = "Clock_Gated_D-Flip_Flop_testCkt"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "Clock_Gated_D-Flip_Flop_testCkt"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ECE5545MiniProject1"
+\a cdsLibManager->libLineEdit->value = "ECE5545MiniProject1"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ECE5545MiniProject1"
+\a cdsLibManager->libLineEdit->value = "ECE5545MiniProject1"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->cellListBox->value = "PMOS_VTL"
+\a cdsLibManager->cellListBox->value = "NMOS_VTL"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTL"
+\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->cellListBox->value = "nmos_vtg"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "nmos_vth"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "nmos_vth"
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)

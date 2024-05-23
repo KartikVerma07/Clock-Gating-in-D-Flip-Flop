@@ -1,0 +1,56 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 12/07/2015 20:15 (sjfnl008) $
+          : sub-version  IC6.1.6-64b.500.14 
+Started at: 18-Mar-2024  23:43:42
+User Name : vkartik
+Host Name : cluster08
+Directory : /home/vkartik/ECE5545
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 ECE5545MiniProject1
+strmFile                                /home/vkartik/ECE5545/DFlip_Flop.calibre.db
+topCell                                 DFlip_Flop
+view                                    layout
+runDir                                  /home/vkartik/ECE5545/
+logFile                                 PIPO.LOG.DFlip_Flop
+summaryFile                             PIPO.SUM.DFlip_Flop
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_CDNS_710819822370
+INFO (XSTRM-223): 2. Translating cellView ECE5545MiniProject1/DFlip_Flop/layout as STRUCTURE DFlip_Flop
+
+Summary of Objects Translated:
+	Scalar Instances:                       0
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             226
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           20
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   0
+	TextDisplay:                            5
+	Cells:                                  2
+
+Elapsed Time: 0.6s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 1660KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

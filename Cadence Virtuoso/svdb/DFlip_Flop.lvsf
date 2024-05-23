@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/vkartik/ECE5545
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 0 4 0}
+lvs_LvsOutFile LVS_REPORT DFlip_Flop.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/vkartik/ECE5545/DFlip_Flop.src.net
+lvs_LvsOutFile RULES_FILE /home/vkartik/ECE5545/_calibreLVS.rul_
+lvs_LvsRunTimes 1710819828 1710819828

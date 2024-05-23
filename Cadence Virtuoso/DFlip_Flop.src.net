@@ -1,0 +1,61 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE5545MiniProject1
+* Top Cell Name: DFlip_Flop
+* View Name:     schematic
+* Netlisted on:  Mar 18 23:43:44 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE5545MiniProject1
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter GND IN OUT VDD
+*.PININFO GND:I IN:I VDD:I OUT:O
+MMP1 OUT IN VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MMN1 OUT IN GND GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: ECE5545MiniProject1
+* Cell Name:    TransmissionGate
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT TransmissionGate GND GateNMOS GatePMOS IN OUT VDD
+*.PININFO GND:I GateNMOS:I GatePMOS:I IN:I VDD:I OUT:B
+MM0 IN GatePMOS OUT VDD PMOS_VTG W=180.0n L=50n m=1
+MMN1 IN GateNMOS OUT GND NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: ECE5545MiniProject1
+* Cell Name:    DFlip_Flop
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT DFlip_Flop CLK D GND Q VDD
+*.PININFO CLK:I D:I GND:I VDD:I Q:O
+XInv2 GND net1 net7 VDD / Inverter
+XInv5 GND net019 net10 VDD / Inverter
+XInv4 GND net19 net019 VDD / Inverter
+XInv0 GND CLK net010 VDD / Inverter
+XInv3 GND net7 net2 VDD / Inverter
+XInv1 GND D net026 VDD / Inverter
+XInv6 GND net019 Q VDD / Inverter
+XTG3 GND CLK net010 net7 net19 VDD / TransmissionGate
+XTG1 GND net010 CLK net026 net1 VDD / TransmissionGate
+XTG2 GND CLK net010 net2 net1 VDD / TransmissionGate
+XTG4 GND net010 CLK net10 net19 VDD / TransmissionGate
+.ENDS
+

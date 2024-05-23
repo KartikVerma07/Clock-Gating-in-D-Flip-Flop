@@ -1,0 +1,75 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 12/07/2015 20:15 (sjfnl008) $
+          : sub-version  IC6.1.6-64b.500.14 
+Started at: 18-Mar-2024  23:43:42
+User Name : vkartik
+Host Name : cluster08
+Directory : /home/vkartik/ECE5545
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+ECE5545MiniProject1/DFlip_Flop/layout                           0        0       0        223    0      0         0      5             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0       0        3      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+ECE5545MiniProject1/DFlip_Flop/layout                           0        0          0          0          0          0     0        0         20        0        
+NCSU_TechLib_FreePDK45/M2_M1/layout                             0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+nimplant        drawing         4       0         0        4        0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        38       0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        78       0        0        5             0    0   0   0     0      0      
+via1            drawing         12      0         0        1        0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        28       0        0        0             0    0   0   0     0      0      
+pwell           drawing         2       0         0        2        0        0        0             0    0   0   0     0      0      
+vtg             drawing         6       0         0        4        0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        4        0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        57       0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        8        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		0
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			226
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			20
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				0
+	TextDisplay:		5
+	Cells:				2
+Design Libraries: 
+
+DEFINE NCSU_TechLib_FreePDK45	/software/NCSU/FreePDK45/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE ECE5545MiniProject1	/home/vkartik/ECE5545/ECE5545MiniProject1

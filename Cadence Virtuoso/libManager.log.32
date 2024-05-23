@@ -1,0 +1,400 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 03/12/2019 23:23 (sjfhw310) $
+\o Sub version:		sub-version  s021 
+\o Arguments:		-mpssession virtuoso12977 -mpshost cluster13.lan.ece 
+\o Working Directory:	cluster13.lan.ece:/home/vkartik/ECE5545
+\o 64-bit offsets
+\o changeWorkingDir("/home/vkartik/ECE5545") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Qt version: 		5.9.1
+\o Log file is "/home/vkartik/ECE5545/libManager.log.32".
+\o Opening libManager window.
+\a nrResizeWindow(cdsLibManager list(0 28 1536 631))
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(0 28 1536 631))
+\w Warning: The directory: '/home/vkartik/ECE5545/$PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5545/cds.lib' for Lib 'NCSU_Devices_FreePDK45'.
+\w Warning: The directory: '/home/vkartik/ECE5545/$PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5545/cds.lib' for Lib 'NCSU_TechLib_FreePDK45'.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ECE5545MiniProject1"
+\a cdsLibManager->libLineEdit->value = "ECE5545MiniProject1"
+\a cdsLibManager->cellListBox->value = "vpulse"
+\a cdsLibManager->cellLineEdit->value = "vpulse"
+\a cdsLibManager->cellListBox->value = "vdc"
+\a cdsLibManager->cellLineEdit->value = "vdc"
+\a cdsLibManager->cellListBox->value = "opin"
+\a cdsLibManager->cellLineEdit->value = "opin"
+\a cdsLibManager->cellListBox->value = "ipin"
+\a cdsLibManager->cellLineEdit->value = "ipin"
+\a cdsLibManager->cellListBox->value = "gnd"
+\a cdsLibManager->cellLineEdit->value = "gnd"
+\a cdsLibManager->cellListBox->value = "TransmissionGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "TransmissionGate_testCkt"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TransmissionGate"
+\a cdsLibManager->cellLineEdit->value = "TransmissionGate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TransmissionGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "TransmissionGate_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TransmissionGate"
+\a cdsLibManager->cellLineEdit->value = "TransmissionGate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "PMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "PMOS_VTG"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop_test"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop_test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop_test"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop_test"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt_copy"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt_copy"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt_copy"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt_copy"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 35 93 2 "NANDGate_testCkt_copy")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(445 128 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(624 258 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "NANDGate_testCkt_copy" from library "ECE5545MiniProject1".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(624 274 268 133))
+\a nrResizeWindow(deleteForm list(445 54 627 425))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\o Deleted cell 'ECE5545MiniProject1/NANDGate_testCkt_copy'.
+\o Deletion of 1 cell done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/vkartik/ECE5545/$PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5545/cds.lib' for Lib 'NCSU_Devices_FreePDK45'.
+\w Warning: The directory: '/home/vkartik/ECE5545/$PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5545/cds.lib' for Lib 'NCSU_TechLib_FreePDK45'.
+\a cdsLibManager->libListBox->value = "ECE5545MiniProject1"
+\a cdsLibManager->libLineEdit->value = "ECE5545MiniProject1"
+\a nrResizeWindow(workingDialogForm list(624 200 268 133))
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt_copy_ECE5545MiniProject1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 130 145 2 "NANDGate_testCkt_copy_ECE5545MiniProject1")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(445 128 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(624 295 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "NANDGate_testCkt_copy_ECE5545MiniProject1" from library "ECE5545MiniProject1".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(624 274 268 133))
+\a nrResizeWindow(deleteForm list(445 91 627 425))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\o Deleted cell 'ECE5545MiniProject1/NANDGate_testCkt_copy_ECE5545MiniProject1'.
+\o Deletion of 1 cell done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/vkartik/ECE5545/$PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5545/cds.lib' for Lib 'NCSU_Devices_FreePDK45'.
+\w Warning: The directory: '/home/vkartik/ECE5545/$PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5545/cds.lib' for Lib 'NCSU_TechLib_FreePDK45'.
+\a cdsLibManager->libListBox->value = "ECE5545MiniProject1"
+\a cdsLibManager->libLineEdit->value = "ECE5545MiniProject1"
+\a nrResizeWindow(workingDialogForm list(624 237 268 133))
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop_test"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop_test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate"
+\a cdsLibManager->cellLineEdit->value = "NANDGate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Inverter_testCkt"
+\a cdsLibManager->cellLineEdit->value = "Inverter_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate"
+\a cdsLibManager->cellLineEdit->value = "NANDGate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate"
+\a cdsLibManager->cellLineEdit->value = "NANDGate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Inverter_testCkt"
+\a cdsLibManager->cellLineEdit->value = "Inverter_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Inverter"
+\a cdsLibManager->cellLineEdit->value = "Inverter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "DFlip_Flop_testCkt"
+\a cdsLibManager->cellLineEdit->value = "DFlip_Flop_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "DFlip_Flop"
+\a cdsLibManager->cellLineEdit->value = "DFlip_Flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Clock_Gated_D-Flip_Flop_testCkt"
+\a cdsLibManager->cellLineEdit->value = "Clock_Gated_D-Flip_Flop_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Clock_Gated_D-Flip_Flop"
+\a cdsLibManager->cellLineEdit->value = "Clock_Gated_D-Flip_Flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Clock_Gated_D-Flip_Flop_testCkt"
+\a cdsLibManager->cellLineEdit->value = "Clock_Gated_D-Flip_Flop_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "DFlip_Flop"
+\a cdsLibManager->cellLineEdit->value = "DFlip_Flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "DFlip_Flop_testCkt"
+\a cdsLibManager->cellLineEdit->value = "DFlip_Flop_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Inverter"
+\a cdsLibManager->cellLineEdit->value = "Inverter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Inverter_testCkt"
+\a cdsLibManager->cellLineEdit->value = "Inverter_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate"
+\a cdsLibManager->cellLineEdit->value = "NANDGate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NANDGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "NANDGate_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "New_D_Flip_Flop_test"
+\a cdsLibManager->cellLineEdit->value = "New_D_Flip_Flop_test"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "PMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "PMOS_VTG"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TransmissionGate"
+\a cdsLibManager->cellLineEdit->value = "TransmissionGate"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TransmissionGate_testCkt"
+\a cdsLibManager->cellLineEdit->value = "TransmissionGate_testCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "gnd"
+\a cdsLibManager->cellLineEdit->value = "gnd"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(192 83 1152 464))
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+ECE5545MiniProject1/TransmissionGate/schematic TransmissionGate
+ECE5545MiniProject1/DFlip_Flop/schematic DFlip_Flop
+ECE5545MiniProject1/Inverter/schematic Inverter
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,14 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
+
+*WARNING* (icLic-3) Could not get license Virtuoso_Schematic_Editor_L
+
+*WARNING* (icLic-21) License Virtuoso_Schematic_Editor_L ("Schematics L") is not available to run Schematics L.
+Trying to check out the license Virtuoso_Schematic_Editor_XL ("Schematics XL") instead.
+
+*INFO* (icLic-25) License Virtuoso_Schematic_Editor_XL ("Schematics XL") was used to run Schematics L.
+
+Running Artist Hierarchical Netlisting ...
+
+Loading cdf.cxt 
+End netlisting Mar 18 23:43:44 2024
+

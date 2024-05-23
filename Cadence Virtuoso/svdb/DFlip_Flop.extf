@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1710819828 1710819828
+lvs_ExtOutFile RUNDIR /home/vkartik/ECE5545
+lvs_ExtOutFile RULES_FILE /home/vkartik/ECE5545/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {1 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/vkartik/ECE5545/DFlip_Flop.sp
+lvs_ExtOutFile EXTRACTION_REPORT DFlip_Flop.lvs.report.ext

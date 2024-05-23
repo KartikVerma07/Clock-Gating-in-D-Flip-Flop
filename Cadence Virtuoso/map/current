@@ -1,0 +1,28 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "DFlip_Flop"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/vkartik/ECE5545"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "ECE5545MiniProject1/TransmissionGate/schematic" "TransmissionGate" )
+( "ECE5545MiniProject1/DFlip_Flop/schematic" "DFlip_Flop" )
+( "ECE5545MiniProject1/Inverter/schematic" "Inverter" )
+ )
+( term
+ )
+( param
+ )
+( "TransmissionGate" "ihnl/cds1/map" )
+( "DFlip_Flop" "ihnl/cds2/map" )
+( "Inverter" "ihnl/cds0/map" )
+ )

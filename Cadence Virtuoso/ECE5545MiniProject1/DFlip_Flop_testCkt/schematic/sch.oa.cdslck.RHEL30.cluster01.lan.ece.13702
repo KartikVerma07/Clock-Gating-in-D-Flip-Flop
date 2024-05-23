@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      arjuk
+HostName                       cluster01.lan.ece
+ProcessIdentifier              13702
+ProcessCreationTime_UTC        1710733953
+ProcessCreationTime_Readable   Sun Mar 17 23:52:33 2024 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/vkartik/ECE5545/ECE5545MiniProject1/DFlip_Flop_testCkt/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Mar 19 23:37:16 2024 EDT
