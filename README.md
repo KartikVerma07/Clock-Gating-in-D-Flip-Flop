@@ -53,7 +53,10 @@ The results highlight significant power savings through clock gating, contributi
    - The table below shows the average power over 200ns for both DFF and clock-gated DFF:\
      ![image](https://github.com/KartikVerma07/Clock-Gating-in-D-Flip-Flop/assets/60437757/e2a6a6e0-cc83-4581-a81c-626a64debbfc)
 
-## 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+For further information, refer to the detailed descriptions and schematics provided in the repository. If you have any questions or need assistance, feel free to open an issue or contact me through email (vkartik@gmail.com).
    
 
 
